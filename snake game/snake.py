@@ -93,6 +93,7 @@ right = (1,0)
 def main():
     pygame.init()
 
+    pygame.display.set_caption('Snake game!')
     clock = pygame.time.Clock()
     screen = pygame.display.set_mode((screen_width, screen_height), 0, 32)
 
